@@ -20,7 +20,8 @@ class Employee:
     def result(self):
 
         return (f'Имя: {self.first_name}, Фамилия: {self.second_name},'
-                f'Пол: {self.gender}, Отпускных дней в году: {Employee.vacation_days}.')
+                f'Пол: {self.gender}, Отпускных дней в году:'
+                f'{Employee.vacation_days}.')
 
 
 # Создайте экземпляры класса Employee с различными значениями атрибутов.
