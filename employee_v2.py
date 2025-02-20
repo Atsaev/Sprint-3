@@ -63,4 +63,5 @@ remaining_days = office_employee.get_remaining_vacation_days()
 print(f'У сотрудника осталось {remaining_days} дн. отпуска.')
 
 vacation_payment = office_employee.get_vacation_payment(vacation_days)
-print(f'За {vacation_days} дн. отпуска сотрудник получит {vacation_payment} руб.')
+print(f'За {vacation_days} дн. отпуска сотрудник'
+      f'получит {vacation_payment} руб.')
